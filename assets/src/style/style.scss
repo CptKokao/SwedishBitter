@@ -41,4 +41,7 @@
 @import "../../../node_modules/bootstrap/scss/_print";
 
 // Подключение своих SCSS файлов
+@import "fonts";
 @import "my";
+
+@import "blocks/header";

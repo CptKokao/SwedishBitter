@@ -12,7 +12,7 @@ var path = {
     src: {
         html: 'assets/src/*.html',
         js: 'assets/src/js/main.js',
-        style: 'assets/src/style/main.scss',
+        style: 'assets/src/style/style.scss',
         img: 'assets/src/img/**/*.*',
         fonts: 'assets/src/fonts/**/*.*'
     },
@@ -69,7 +69,7 @@ gulp.task('html:build', function () {
 
 // сбор стилей
 gulp.task('css:build', function () {
-    return gulp.src(path.src.style) // получим main.scss
+    return gulp.src(path.src.style) // получим style.scss
         .pipe(plumber()) // для отслеживания ошибок
         .pipe(sourcemaps.init()) // инициализируем sourcemap
         .pipe(sass()) // scss -> css
