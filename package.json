@@ -29,8 +29,9 @@
     "imagemin-jpeg-recompress": "^6.0.0",
     "imagemin-pngquant": "^8.0.0",
     "gulp-rename": "^1.4.0",
-    "stylelint-config-htmlacademy": "0.1.x",
-    "@htmlacademy/editorconfig-cli": "1.x"
+    "stylelint": "^10.1.0",
+    "stylelint-config-htmlacademy": "^0.1.4",
+    "@htmlacademy/editorconfig-cli": "^1.0.0"
   },
   "scripts": {
     "editorconfig": "editorconfig-cli",
