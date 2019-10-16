@@ -1,6 +1,6 @@
-header {
-    margin-top: 25px;
-}
+// header {
+//     margin-top: 25px;
+// }
 
 .header__logo {
     width: 110px;
@@ -9,6 +9,7 @@ header {
 
 .header__delivery {
     display: none;
+    color: #9a9a9a;
 }
 
 .header__phone-img {
@@ -22,16 +23,34 @@ header {
 .header__phone-number {
     font-size: 14px;
     color: #303030;
+    margin: 0;
 }
-  
-  
-  
-  @media (min-width: 768px) {
-    
 
 
-  }
-  
+
+@media (min-width: 768px) {
+
+    .header__logo {
+        width: 198px;
+        height: 29px;
+    }
+
+    .header__delivery {
+        display: block;
+    }
+
+    .header__phone-img {
+        display: block;
+        width: 16px;
+        height: 16px;
+    }
+
+.header__phone-text {
+    display: block;
+}
+
+}
+
   @media (min-width: 992px) {
 
   }

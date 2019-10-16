@@ -28,6 +28,22 @@
     "gulp-uglify": "^3.0.2",
     "imagemin-jpeg-recompress": "^6.0.0",
     "imagemin-pngquant": "^8.0.0",
-    "gulp-rename": "^1.4.0"
-  }
+    "gulp-rename": "^1.4.0",
+    "stylelint-config-htmlacademy": "0.1.x",
+    "@htmlacademy/editorconfig-cli": "1.x"
+  },
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"assets/src/style/**/*.scss\" --syntax scss",
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp build",
+    "start": "gulp default"
+  },
+  "editorconfig-cli": [
+    "*.json",
+    "*.js",
+    "assets/src/*.html",
+    "assets/src/js/**/*.js",
+    "assets/src/sass/**/*.{sass,scss}"
+  ]
 }
