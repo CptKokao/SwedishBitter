@@ -1,7 +1,7 @@
 .intro {
   background: url("../img/bg_header.jpg") no-repeat right;
   background-size: cover;
-  height: 435px;
+  height: 375px;
 }
 
 .intro__name {
@@ -28,9 +28,19 @@
   display: none;
 }
 
-.intro-img {
-  margin: 0;
+.intro__img {
+  margin: 0 auto;
   margin-top: 25px;
   width: 86px;
   height: 188px;
+}
+
+.intro__more {
+  padding: 0;
+  padding-top: 15px;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  background-color: #7eb252;
+
 }

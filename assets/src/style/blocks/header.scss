@@ -19,6 +19,7 @@
 
 .header__phone-text {
   display: none;
+  text-align: right;
 }
 
 .header__phone-number {
@@ -39,13 +40,27 @@
   }
 
   .header__phone-img {
-    display: block;
     width: 16px;
     height: 16px;
+    border: 1px solid red;
   }
 
   .header__phone-text {
     display: block;
+  }
+
+  .header__phone-number {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      right: 145px;
+      top: 1px;
+      background-image: url('../img/phone.svg');
+      width: 16px;
+      height: 16px;
+    }
   }
 }
 
