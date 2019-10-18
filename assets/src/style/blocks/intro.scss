@@ -1,12 +1,10 @@
 .intro {
   background: url("../img/bg_header.jpg") no-repeat right;
   background-size: cover;
-  height: 375px;
+  padding-top: 35px;
 }
 
 .intro__name {
-  margin: 0;
-  margin-top: 35px;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 0.6px;
@@ -16,7 +14,6 @@
 }
 
 .intro__title {
-  margin: 0;
   margin-top: 20px;
   font-size: 30px;
   font-weight: 600;
@@ -31,16 +28,92 @@
 .intro__img {
   margin: 0 auto;
   margin-top: 25px;
+  margin-bottom: 30px;
   width: 86px;
   height: 188px;
 }
 
 .intro__more {
-  padding: 0;
-  padding-top: 15px;
-  height: 60px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  height: 60px;
   background-color: #7eb252;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
+@media (min-width: 768px) {
+  .intro {
+    height: 554px;
+    padding-top: 95px;
+  }
+
+  .intro__name {
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    text-align: left;
+    margin-top: 30px;
+  }
+
+  .intro__title {
+    font-size: 50px;
+    text-align: left;
+    margin-top: 35px;
+  }
+
+  .intro__description {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+
+  .intro__img {
+    margin-top: 0;
+    width: 298px;
+    height: 648px;
+  }
+
+  // Модальное окно
+
+  .intro-modal {
+    width: 571px;
+    height: 315px;
+    background-color: #ffffff;
+    border: 1px solid red;
+    padding: 20px;
+  }
+
+  .intro-modal__inner {
+    width: 530px;
+    height: 275px;
+    border: 1px solid #a4c58c;
+    padding: 45px 45px 0;
+  }
+
+  .intro-modal__title {
+    color: #303030;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    line-height: 22px;
+    font-weight: 700;
+  }
+
+  .intro-modal__wrapper {
+    display: flex;
+  }
+
+  input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #303030;
+    font-size: 19px;
+    line-height: 18px;
+    width: 200px;
+    margin-right: 30px;
+  }
 }

@@ -1,6 +1,6 @@
 .header {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .header__logo {
@@ -37,6 +37,7 @@
 
   .header__delivery {
     display: block;
+    margin: 0;
   }
 
   .header__phone-img {
