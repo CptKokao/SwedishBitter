@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container intro-fix">
   <div class="intro">
     <div class="row justify-content-center flex-md-row-reverse">
       <div class="col-8 col-md-5">
@@ -18,32 +18,26 @@
           <p class="intro__more">Узнать больше</p>
       </div>
   </div>
-  <div class="row">
-    <div class="col-9">
-      <div class="intro-modal">
-        <div class="intro-modal__inner">
-          <div class="col-6">
-            <p class="intro-modal__title">Узнайте подробнее о бальзаме</p>
-          </div>
-          <div class="col-6">
-            <form action="">
-                <fieldset>
-                  <div class="intro-modal__wrapper">
-                    <div class="intro-modal__name">
-                      <input type="text" placeholder="Имя">
-                    </div>
-                    <div class="intro-modal__phone">
-                      <input type="text" placeholder="Телефон" required>
-                    </div>
-                  </div>
-                </fieldset>
-            </form>
-          </div>
-        </div>
-      </div>
+
+  <div class="intro-modal hidden">
+    <a href="#" class="intro-modal__close"></a>
+    <div class="intro-modal__inner">
+
+      <p class="intro-modal__title">Узнайте подробнее о бальзаме</p>
+      <form action="">
+          <fieldset>
+            <div class="intro-modal__wrapper">
+              <div class="intro-modal__name">
+                <input class="intro-modal__input" type="text" placeholder="Имя">
+              </div>
+              <div class="intro-modal__phone">
+                <input class="intro-modal__input" type="text" placeholder="Телефон" required>
+              </div>
+            </div>
+          </fieldset>
+          <button class="intro-modal__btn" type="reset">Узнать</button>
+      </form>
+
     </div>
-
   </div>
-
-
 </div>
