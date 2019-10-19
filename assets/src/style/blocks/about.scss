@@ -1,0 +1,47 @@
+.about__wrapper {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.about__title {
+  display: inline;
+  color: #a4c58c;
+  font-size: 24px;
+  line-height: 24px;
+  border-bottom: 3px solid #a4c58c;
+}
+
+.about__year {
+  font-size: 18px;
+}
+
+.about__text {
+  width: 200px;
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .about__wrapper {
+    margin-top: 100px;
+    margin-left: 30%;
+  }
+
+  .about__title {
+    font-size: 30px;
+  }
+
+
+  .about__cicle {
+    position: absolute;
+    top: -35px;
+    left: -40px;
+    height: 26px;
+    width: 26px;
+    border: 5px solid #a4c58c;
+    border-radius: 50%;
+    opacity: 0.5;
+  }
+}
+

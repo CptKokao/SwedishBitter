@@ -37,22 +37,30 @@
   height: 188px;
 }
 
+.intro__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .intro__more {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
   height: 60px;
+  width: 300px;
   background-color: #7eb252;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
+  cursor: pointer;
 }
 
 // Модальное окно
 .intro-modal {
   position: absolute;
-  top: 105px;
-  width: 95%;
+  top: 177px;
+  width: 100%;
   background-color: #ffffff;
   padding: 20px;
 }
@@ -69,7 +77,6 @@
 .intro-modal__title {
   width: 185px;
   color: #303030;
-  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.7px;
   line-height: 22px;
@@ -158,9 +165,14 @@
 }
 
 @media (min-width: 768px) {
+  .intro-fix {
+    min-height: 775px;
+  }
+
   .intro {
     height: 554px;
     padding-top: 95px;
+    margin-bottom: 230px;
   }
 
   .intro__name {
@@ -190,10 +202,16 @@
     height: 648px;
   }
 
+  .intro__wrapper {
+    position: absolute;
+    top: -316px;
+    right: -345px;
+}
+
   // Модальное окно
   .intro-modal {
     top: 427px;
-    right: 0;
+    right: 5%;
     width: 571px;
   }
 
@@ -226,3 +244,11 @@
     }
   }
 }
+
+@media (min-width: 1200px) {
+  // Модальное окно
+  .intro-modal {
+    right: 20%;
+  }
+ }
+
