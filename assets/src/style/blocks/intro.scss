@@ -130,20 +130,23 @@
     opacity: 1;
   }
 
-  &:before, &:after {
+  &::before {
     position: absolute;
     left: 15px;
-    content: ' ';
+    content: "";
     height: 33px;
     width: 2px;
     background-color: #333333;
-  }
-
-  &:before {
     transform: rotate(45deg);
   }
 
-  &:after {
+  &::after {
+    position: absolute;
+    left: 15px;
+    content: "";
+    height: 33px;
+    width: 2px;
+    background-color: #333333;
     transform: rotate(-45deg);
   }
 }
@@ -152,7 +155,7 @@
   .intro-modal {
     width: 510px;
   }
- }
+}
 
 @media (min-width: 768px) {
   .intro {
@@ -210,7 +213,6 @@
 
   .intro-modal__input {
     width: 200px;
-
   }
 
   .intro-modal__btn {
