@@ -7,7 +7,7 @@
 .advantage__title {
   color: #303030;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 30px;
   text-align: center;
   margin-top: 55px;
@@ -24,8 +24,8 @@
   color: #303030;
   line-height: 23px;
   text-transform: uppercase;
-  font-weight: 700;
-  border-bottom: 1px solid #a4c58c;
+  font-weight: 600;
+  border-bottom: 1px solid #c2bfbf;
   padding: 20px 5px;
 
   &:last-child {
@@ -40,7 +40,7 @@
   line-height: 20px;
   text-transform: uppercase;
   letter-spacing: 0.6px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .advantage__item-text {
@@ -79,7 +79,7 @@
   padding: 0 10px;
   background-color: #f6f9f3;
   color: #7eb252;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 24px;
   text-decoration: underline;
 }
@@ -98,6 +98,93 @@
   background-color: #7eb252;
   color: #ffffff;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .advantage__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 55px;
+    text-align: center;
+  }
+
+  .advantage__list {
+    margin-top: 0;
+    padding: 0 30px;
+  }
+
+  .advantage__item-number {
+    width: 40px;
+  }
+
+  .advantage__item-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    li:nth-child(2) {
+      border-right: none;
+      padding-left: 15px;
+    }
+
+    li:nth-child(4) {
+      border-right: none;
+      border-bottom: 1px solid #c2bfbf;
+      padding-left: 15px;
+    }
+  }
+
+  .advantage__item--flex {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border-right: 1px solid #c2bfbf;
+  }
+
+  .advantage__item-text--flex {
+    text-transform: none;
+  }
+
+  .advantage__img {
+    width: 100%;
+    display: block;
+    margin-top: -18px;
+    background-color: #a4c58c;
+  }
+
+  .advantage__description {
+    height: 180px;
+    padding: 20px;
+    background-color: #f6f9f3;
+    margin-top: -165px;
+    z-index: 1;
+}
+
+  .advantage__text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .advantage__reviews {
+    margin-top: -17px;
+  }
+
+  .advantage__wrapper {
+    margin-top: 20px;
+  }
+
+  // .intro__link {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   margin: 0;
+  //   height: 60px;
+  //   background-color: #7eb252;
+  //   color: #ffffff;
+  //   text-transform: uppercase;
+  //   font-weight: bold;
+  //   cursor: pointer;
+  // }
+
 }
