@@ -1,13 +1,16 @@
 <div class="container-fluid">
+
+  <!-- ряд с заголовком -->
   <div class="row justify-content-center">
-    <div class="col-12 col-sm-6 col-lg-6">
+    <div class="col-12 col-sm-6">
       <h2 class="advantage__title">Что из этого списка вы находите у себя?</h2>
     </div>
   </div>
 
+  <!-- ряд с приумуществами -->
   <div class="row">
     <div class="advantage">
-      <div class="col-12 col-lg-6">
+      <div class="offset-1 col-10">
         <ul class="advantage__list">
           <li class="advantage__item">
             <p class="advantage__item-text"><span class="advantage__item-number">01.</span>Сниженный тонус, не хватает энергии</p>
@@ -41,20 +44,22 @@
         </ul>
       </div>
     </div>
-  </div>
 
-  <div class="row">
-    <div class="advantage__img">
-      <div class="col-md-8 offset-md-2">
-        <img
-        src="img/snapshot.jpg"
-        srcset="img/snapshot@2x.jpg 2x"
-        alt="снимок"
-        />
+    <!-- блок с картинкой -->
+    <div class="col-12 p-0">
+      <div class="advantage__bg">
+        <div class="advantage__img">
+          <img
+          src="img/snapshot.jpg"
+          alt="снимок"
+          />
+        </div>
       </div>
     </div>
   </div>
 
+
+  <!-- ряд с отзывами -->
   <div class="row justify-content-center">
     <div class="advantage__description">
       <div class="col-12 col-sm-6 p-0" >
@@ -70,7 +75,7 @@
     </div>
   </div>
 
-
+  <!-- ряд с кнопкой -->
   <div class="row justify-content-center">
     <div class="col-12 p-0 col-sm-6">
         <div class="advantage__wrapper">

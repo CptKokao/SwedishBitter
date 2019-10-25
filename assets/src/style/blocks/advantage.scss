@@ -16,8 +16,7 @@
 .advantage__list {
   list-style: none;
   padding: 0;
-  margin-top: 20px;
-
+  padding-top: 10px;
 }
 
 .advantage__item {
@@ -110,10 +109,9 @@
     text-align: center;
   }
 
-  .advantage__list {
-    margin-top: 0;
-    padding: 0 30px;
-  }
+  // .advantage__list {
+  //   margin-top: 0;
+  // }
 
   .advantage__item-number {
     width: 40px;
@@ -146,11 +144,15 @@
     text-transform: none;
   }
 
-  .advantage__img {
-    width: 100%;
-    display: block;
-    margin-top: -18px;
+  .advantage__bg {
     background-color: #a4c58c;
+    margin-top: -20px;
+  }
+
+  .advantage__img {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
   }
 
   .advantage__description {
@@ -173,18 +175,8 @@
   .advantage__wrapper {
     margin-top: 20px;
   }
+}
 
-  // .intro__link {
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  //   margin: 0;
-  //   height: 60px;
-  //   background-color: #7eb252;
-  //   color: #ffffff;
-  //   text-transform: uppercase;
-  //   font-weight: bold;
-  //   cursor: pointer;
-  // }
+@media (min-width: 992px) {
 
 }
