@@ -50,20 +50,18 @@
   display: none;
 }
 
-.advantage__description {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 5px;
-  padding-bottom: 35px;
-  background-color: #f6f9f3;
-}
-
 .advantage__description-wrapper {
   position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 35px;
+  // background-color: #f6f9f3;
+}
+
+.advantage__description {
+  text-align: center;
+  background-color: #f6f9f3;
 }
 
 .advantage__text {
@@ -74,19 +72,22 @@
 }
 
 .advantage__reviews {
-  margin-top: -12px;
-  padding: 0 10px;
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: -15px;
+  // padding: 0 10px;
   background-color: #f6f9f3;
   color: #7eb252;
   font-weight: 600;
-  line-height: 24px;
+  // line-height: 24px;
   text-decoration: underline;
 }
 
-.advantage__wrapper {
-  display: flex;
-  flex-direction: column;
-}
+// .advantage__wrapper {
+//   display: flex;
+//   flex-direction: column;
+// }
 
 .intro__link {
   display: flex;
@@ -108,10 +109,6 @@
     margin-top: 55px;
     text-align: center;
   }
-
-  // .advantage__list {
-  //   margin-top: 0;
-  // }
 
   .advantage__item-number {
     width: 40px;
@@ -155,11 +152,15 @@
     margin: 0 auto;
   }
 
+  .advantage__description-wrapper {
+    position: absolute;
+    top: -165px;
+    padding-bottom: 15px;
+  }
+
   .advantage__description {
     height: 180px;
     padding: 20px;
-    background-color: #f6f9f3;
-    margin-top: -165px;
     z-index: 1;
 }
 
@@ -169,14 +170,51 @@
   }
 
   .advantage__reviews {
-    margin-top: -17px;
+    // margin-top: -17px;
   }
 
   .advantage__wrapper {
-    margin-top: 20px;
+    margin-top: 50px;
   }
 }
 
 @media (min-width: 992px) {
+  .advantage {
+    position: relative;
+    padding-bottom: 25px;
+  }
 
+  .advantage__title {
+    font-size: 39px;
+    line-height: 50px;
+    text-align: start;
+    margin-top: 170px;
+  }
+
+  .advantage__text {
+    /* width: 100%; */
+  }
+
+  .advantage__img {
+    width: auto;
+  }
+
+  .advantage__bg {
+    position: absolute;
+    top: -680px;
+  }
+
+  .advantage__description-wrapper {
+    // position: absolute;
+    top: -238px;
+    // padding-bottom: 15px;
+  }
+
+  .advantage__item-wrapper {
+
+  }
+
+  .advantage__description {
+    height: 215px;
+}
 }
