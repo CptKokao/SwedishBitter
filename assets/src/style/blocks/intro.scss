@@ -1,6 +1,6 @@
-.intro-fix {
-  position: relative;
-}
+// .intro-fix {
+//   position: relative;
+// }
 
 .intro {
   background: url("../img/bg_header.jpg") no-repeat right;
@@ -35,11 +35,6 @@
   margin-bottom: 30px;
   width: 86px;
   height: 188px;
-}
-
-.intro__wrapper {
-  display: flex;
-  justify-content: center;
 }
 
 .intro__more {
@@ -202,10 +197,11 @@
     height: 648px;
   }
 
-  .intro__wrapper {
+  .intro__btn {
     position: absolute;
     top: -316px;
-    right: -345px;
+    right: -165px;
+    width: 300px;
 }
 
   // Модальное окно
