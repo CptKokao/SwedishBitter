@@ -35,8 +35,13 @@
   line-height: 22px;
 }
 
+.advantage2__border {
+  margin-top: 40px;
+  text-align: center;
+}
+
 .advantage2__btn {
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .advantage2__btn-text {
@@ -68,7 +73,6 @@
     padding: 20px;
     text-align: start;
     background-color: #f6f9f3;
-    min-height: 250px;
   }
 
   .advantage2__border-text {
@@ -79,7 +83,7 @@
   }
 
   .advantage2__btn {
-    margin: 0;
+    margin-top: -25px;
   }
 
   .advantage2__btn-text {
@@ -87,8 +91,14 @@
   }
 
   @media (min-width: 1200px) {
+    .advantage2 {
+      position: relative;
+      max-width: 1670px;
+      margin: 0 auto;
+    }
+
     .advantage2__title {
-      margin-top: 150px;
+      margin-top: 250px;
       font-size: 40px;
       line-height: 50px;
       text-align: start;
@@ -96,12 +106,20 @@
 
     .advantage2__subtitle {
       text-align: start;
+      margin-top: 50px;
     }
 
     .advantage2__img {
       position: absolute;
-      top: -500px;
-      left: 1px;
+      top: 170px;
+      left: 0;
+      width: 48%;
+      max-height: 1550px;
+      z-index: -1;
     }
+
+    .advantage2__border {
+      margin-top: -230px;
+  }
   }
 }
