@@ -16,7 +16,12 @@
 }
 
 .advantage3__email {
+  margin: 0 auto;
   padding-top: 25px;
+}
+
+.advantage3__email-form {
+  padding: 0 25px;
 }
 
 .advantage3__email-title {
@@ -27,7 +32,6 @@
 
 @media (min-width: 768px) {
   .advantage3 {
-    background-color: $bg_color;
     margin-top: -60px;
     padding-top: 150px;
   }
@@ -42,9 +46,49 @@
     line-height: 1.5;
   }
 
+  .advantage3__flex {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
   .advantage3__email {
     margin-right: 30px;
   }
+}
 
+@media (min-width: 1200px) {
+  .advantage3 {
+    background-color: white;
+    padding-top: 300px;
+  }
 
+  .advantage3__wrapper {
+    position: relative;
+    z-index: 1;
+  }
+
+  .advantage3__title {
+    margin-bottom: 45px;
+    font-size: 40px;
+    text-align: start;
+  }
+
+  .advantage3__text-wrapper {
+    background-color: $bg_color;
+    padding: 20px 20px;
+  }
+
+  .advantage3__img {
+    position: absolute;
+    top: -740px;
+    right: -45px;
+    width: 560px;
+    z-index: -1;
+  }
+
+  .advantage3__email {
+    margin-right: 0;
+  }
 }
