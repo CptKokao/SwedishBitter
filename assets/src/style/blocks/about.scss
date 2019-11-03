@@ -5,10 +5,10 @@
 
 .about__title {
   display: inline;
-  color: #a4c58c;
+  color: $green;
   font-size: 24px;
   line-height: 24px;
-  border-bottom: 3px solid #a4c58c;
+  border-bottom: 3px solid $green;
 }
 
 .about__year {
@@ -38,7 +38,7 @@
     left: 0;
     height: 26px;
     width: 26px;
-    border: 5px solid #a4c58c;
+    border: 5px solid $green;
     border-radius: 50%;
     opacity: 0.5;
   }

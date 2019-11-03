@@ -2,14 +2,14 @@
   margin-top: 60px;
   text-align: center;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 30px;
 }
 
 .advantage2__subtitle {
   margin-top: 10px;
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 20px;
   text-transform: uppercase;
   letter-spacing: 0.6px;
@@ -72,14 +72,14 @@
     margin-top: -160px;
     padding: 20px;
     text-align: start;
-    background-color: #f6f9f3;
+    background-color: $bg_color;
   }
 
   .advantage2__border-text {
     font-size: 16px;
     margin: 0;
     padding: 35px;
-    border: 1px solid #a4c58c;
+    border: 1px solid $green;
   }
 
   .advantage2__btn {

@@ -2,6 +2,7 @@ body {
   font-size: 14px;
   font-family: "Montserrat", "Arial", sans-serif;
   font-style: normal;
+  color: #303030;
 }
 
 img {
@@ -40,5 +41,45 @@ a {
   text-transform: uppercase;
   font-weight: 600;
   cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  height: 60px;
+  background-color: #7eb252;
+  border: none;
+  border-radius: 0;
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  margin-top: 35px;
+  display: block;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background: url("../img/arrow.svg") no-repeat center;
+    width: 31px;
+    height: 10px;
+    opacity: 0.8;
+    top: 25px;
+    right: 25px;
+  }
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid $green;
+  line-height: 18px;
+  width: 100%;
+  // width: 185px;
+  margin-right: 30px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  outline: none;
 }
 

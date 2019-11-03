@@ -1,6 +1,6 @@
 'use strict';
 
-const introMore = document.querySelector('.intro__more');
+const introMore = document.querySelector('.intro__btn');
 const introModal = document.querySelector('.intro-modal');
 const introModalClose = document.querySelector('.intro-modal__close');
 
