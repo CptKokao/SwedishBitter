@@ -1,0 +1,61 @@
+.quote {
+  padding: 50px 0;
+}
+
+.quote_text {
+  font-weight: bold;
+  line-height: 1.71;
+  text-align: center;
+}
+
+.quote__author {
+  text-align: center;
+}
+
+.quote__year {
+  display: block;
+  font-size: 12px;
+  line-height: 2.5;
+  color: #9a9a9a;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .quote {
+    margin-top: 50px;
+    padding: 30px 0;
+    border-top: 2px solid $green;
+    border-bottom: 2px solid $green;
+  }
+
+  .quote_text {
+    font-size: 18px;
+  }
+
+  .quote__author {
+    font-size: 16px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .quote {
+    margin: 50px 40px;
+    margin-top: 150px;
+  }
+
+  .quote_text {
+    font-size: 23px;
+  }
+
+  .quote__author {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+
+  .quote__year {
+    display: inline;
+    font-size: 16px;
+  }
+
+}
