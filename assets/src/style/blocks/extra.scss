@@ -1,0 +1,44 @@
+.extra {
+  background-color: $bg_color;
+  padding: 60px 0;
+}
+
+.extra__title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.extra__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  position: relative;
+  // outline: 1px solid red;
+  z-index: 0;
+}
+
+.extra__img {
+  padding-top: 10px;
+  width: 85px;
+  height: 85px;
+}
+
+.extra__text {
+  font-size: 11.5px;
+  font-weight: bold;
+  line-height: 1.7;
+  margin-top: 30px;
+}
+
+.extra__number {
+  position: absolute;
+  top: -50px;
+  font-size: 130px;
+  color: #ffffff;
+  font-weight: bold;
+  opacity: 0.8;
+  z-index: -1;
+}
