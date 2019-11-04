@@ -93,8 +93,6 @@
   @media (min-width: 1200px) {
     .advantage2 {
       position: relative;
-      max-width: 1670px;
-      margin: 0 auto;
     }
 
     .advantage2__title {
@@ -109,17 +107,19 @@
       margin-top: 50px;
     }
 
+    .advantage2__list {
+      padding-left: 20px;
+    }
+
     .advantage2__img {
       position: absolute;
-      top: 170px;
+      top: -575px;
       left: 0;
-      width: 48%;
-      max-height: 1550px;
-      z-index: -1;
+      margin-right: 30px;
     }
 
     .advantage2__border {
-      margin-top: -230px;
-  }
+      margin-top: -210px;
+    }
   }
 }
