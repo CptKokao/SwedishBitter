@@ -1,0 +1,57 @@
+.structure {
+  padding: 65px 0;
+}
+
+.structure__title {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.structure__list {
+  margin-top: 25px;
+  padding-left: 10%;
+}
+
+.structure__item {
+  color: $green;
+}
+
+.structure__item-text {
+  color: #303030;
+}
+
+.structure__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: $bg_color;
+  min-height: 295px;
+}
+
+.structure__block-number {
+  position: absolute;
+  top: 25px;
+  left: 5px;
+  transform: rotate(-90deg);
+  color: $green;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.structure__block-name {
+  position: absolute;
+  bottom: 75px;
+  right: -50px;
+  transform: rotate(-90deg);
+  color: $green;
+  font-size: 13px;
+}
+
+.structure__block-img {
+  width: 285px;
+  height: auto;
+}
+
