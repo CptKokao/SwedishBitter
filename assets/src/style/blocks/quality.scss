@@ -83,7 +83,18 @@
   }
 }
 
+@media (min-width: 992px) {
+  .quality__btn {
+    bottom: 189px;
+    width: 508px;
+}
+}
+
 @media (min-width: 1200px) {
+  .quality {
+    margin-top: 150px;
+  }
+
   .quality__title {
     font-size: 40px;
     text-align: left;
@@ -114,10 +125,14 @@
     padding: 50px;
   }
 
+  .quality__subtitle {
+    top: 40px;
+  }
+
   .quality__btn {
     position: absolute;
-    top: 240px;
-    left: 145px;
+    top: 290px;
+    left: 171px;
     width: 445px;
   }
 }

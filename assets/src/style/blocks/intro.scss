@@ -190,6 +190,12 @@
   }
 }
 
+@media (min-width: 992px) {
+  .intro__btn {
+    right: -115px;
+  }
+}
+
 @media (min-width: 1200px) {
   // Модальное окно
   .intro-modal {

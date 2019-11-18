@@ -132,6 +132,12 @@
   }
 }
 
+@media (min-width: 992px) {
+  .structure__block-name {
+    bottom: 38%;
+  }
+}
+
 @media (min-width: 1200px) {
   .structure__title {
     position: absolute;
@@ -158,6 +164,7 @@
   }
 
   .structure__block-name {
+    bottom: 30%;
     right: -28%;
     width: 70%;
   }
